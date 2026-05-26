@@ -1,0 +1,91 @@
+{
+  "export_date": "2024-04-01",
+  "platform": "Navan",
+  "company_id": "ACME-001",
+  "trips": [
+    {
+      "trip_id": "TRIP-2401-001",
+      "traveler_id": "EMP-042",
+      "traveler_name": "Alice Johnson",
+      "department": "Sales",
+      "segments": [
+        {"type": "flight", "origin": "LHR", "destination": "JFK",
+         "departure_date": "2024-01-10", "cabin_class": "economy",
+         "booking_ref": "BA178"},
+        {"type": "hotel", "check_in": "2024-01-10", "check_out": "2024-01-14",
+         "hotel_name": "Marriott Times Square", "country": "US"},
+        {"type": "ground", "transport_type": "taxi", "date": "2024-01-10",
+         "distance_km": 35, "description": "JFK to hotel"},
+        {"type": "flight", "origin": "JFK", "destination": "LHR",
+         "departure_date": "2024-01-14", "cabin_class": "economy",
+         "booking_ref": "BA179"}
+      ]
+    },
+    {
+      "trip_id": "TRIP-2401-002",
+      "traveler_id": "EMP-017",
+      "traveler_name": "Bob Williams",
+      "department": "Executive",
+      "segments": [
+        {"type": "flight", "origin": "LHR", "destination": "JFK",
+         "departure_date": "2024-01-10", "cabin_class": "business",
+         "booking_ref": "BA178-J"},
+        {"type": "hotel", "check_in": "2024-01-10", "check_out": "2024-01-14",
+         "hotel_name": "Marriott Times Square", "country": "US"},
+        {"type": "flight", "origin": "JFK", "destination": "LHR",
+         "departure_date": "2024-01-14", "cabin_class": "business",
+         "booking_ref": "BA179-J"}
+      ]
+    },
+    {
+      "trip_id": "TRIP-2402-001",
+      "traveler_id": "EMP-042",
+      "traveler_name": "Alice Johnson",
+      "department": "Sales",
+      "segments": [
+        {"type": "flight", "origin": "LHR", "destination": "CDG",
+         "departure_date": "2024-02-14", "cabin_class": "economy",
+         "booking_ref": "EZ8452"},
+        {"type": "hotel", "check_in": "2024-02-14", "check_out": "2024-02-16",
+         "hotel_name": "Novotel Paris Centre", "country": "FR"},
+        {"type": "ground", "transport_type": "rail", "date": "2024-02-14",
+         "distance_km": 12, "description": "CDG to city centre RER B"},
+        {"type": "flight", "origin": "CDG", "destination": "LHR",
+         "departure_date": "2024-02-16", "cabin_class": "economy",
+         "booking_ref": "EZ8453"}
+      ]
+    },
+    {
+      "trip_id": "TRIP-2403-001",
+      "traveler_id": "EMP-089",
+      "traveler_name": "Carol Smith",
+      "department": "Engineering",
+      "segments": [
+        {"type": "flight", "origin": "LHR", "destination": "DXB",
+         "departure_date": "2024-03-05", "cabin_class": "economy",
+         "booking_ref": "EK003"},
+        {"type": "hotel", "check_in": "2024-03-05", "check_out": "2024-03-08",
+         "hotel_name": "Hilton Dubai Creek", "country": "AE"},
+        {"type": "ground", "transport_type": "taxi", "date": "2024-03-05",
+         "distance_km": 28, "description": "DXB airport transfer"},
+        {"type": "flight", "origin": "DXB", "destination": "LHR",
+         "departure_date": "2024-03-08", "cabin_class": "economy",
+         "booking_ref": "EK004"}
+      ]
+    },
+    {
+      "trip_id": "TRIP-2401-003",
+      "traveler_id": "EMP-055",
+      "traveler_name": "David Lee",
+      "department": "Operations",
+      "segments": [
+        {"type": "ground", "transport_type": "rail", "date": "2024-01-22",
+         "distance_km": 330, "description": "London Euston to Manchester Piccadilly"},
+        {"type": "hotel", "check_in": "2024-01-22", "check_out": "2024-01-24",
+         "hotel_name": "Premier Inn Manchester City Centre", "country": "UK"},
+        {"type": "ground", "transport_type": "rail", "date": "2024-01-24",
+         "distance_km": 330, "description": "Manchester Piccadilly to London Euston"}
+      ]
+    }
+  ]
+}
