@@ -4,11 +4,11 @@ A Django REST + React prototype for ingesting, normalising, and reviewing emissi
 
 ## Live Demo
 
-> Deploy via `render.yaml` — see Deployment section below.
+> Deploy via `render.yaml` - see Deployment section below.
 
 **Demo credentials:**
-- `analyst / demo1234` — analyst role (review, approve, reject)
-- `admin / admin1234` — admin role + Django admin at `/admin`
+- `analyst / demo1234` - analyst role (review, approve, reject)
+- `admin / admin1234` - admin role + Django admin at `/admin`
 
 ---
 
@@ -78,7 +78,7 @@ REACT_APP_API_URL=http://localhost:8000 npm start
 
 1. Push repo to GitHub
 2. Go to [render.com](https://render.com) → New → Blueprint
-3. Connect your repo — Render reads `render.yaml` automatically
+3. Connect your repo - Render reads `render.yaml` automatically
 4. It will create: PostgreSQL DB, Django backend web service, React static site
 5. Set `REACT_APP_API_URL` in frontend env to the backend's `.onrender.com` URL
 
@@ -88,6 +88,6 @@ REACT_APP_API_URL=http://localhost:8000 npm start
 
 Upload files from `sample_data/` via the Ingest page to test parsing:
 
-- **`sample_sap.csv`** — German-header SAP export with fuel consumption rows, one goods receipt (auto-skipped), one non-fuel row, one anomaly (42,000 kg diesel)
-- **`sample_utility.csv`** — 3 meters, billing periods misaligned to calendar months
-- **`sample_travel.json`** — 5 trips, flights (economy + business class), hotels (UK/US/FR/AE), rail and taxi ground transport
+- **`sample_sap.csv`** - German-header SAP export with fuel consumption rows, one goods receipt (auto-skipped), one non-fuel row, one anomaly (42,000 kg diesel)
+- **`sample_utility.csv`** - 3 meters, billing periods misaligned to calendar months
+- **`sample_travel.json`** - 5 trips, flights (economy + business class), hotels (UK/US/FR/AE), rail and taxi ground transport
