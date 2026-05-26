@@ -1,4 +1,4 @@
-# Breathe ESG — Emissions Ingestion & Review Platform
+# Breathe ESG : Emissions Ingestion & Review Platform
 
 A Django REST + React prototype for ingesting, normalising, and reviewing emissions data from three enterprise sources: SAP fuel/procurement, utility electricity portal exports, and corporate travel (Concur/Navan).
 
